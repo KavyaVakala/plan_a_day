@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>to_do_list</title>
+
+</head>
+<body onload="displayDate()"''>
+    
+    <div class="container">
+
+    <div class="nav">
+         <h2 style="font-size: 60px;padding-right: 80px;background-color: rgba(67, 4, 126, 0.651); color:whitesmoke" align="center" ><i class="fa fa-star" aria-hidden="true"></i>PLAN-A-DAYY<i class="fa fa-star" aria-hidden="true"></i></h1>
+        <div class="user-input">
+            <h1><span id="date" style="padding-left: 100px;"></span></h1>
+            <input id="input" type="text" placeholder="Whats your task ??" align="center" style="font-size:20px;height:50px;width:400px" ><button style="height:50px;width:70px" onclick="addItem()">submit</button>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="to-do-items"></div>
+
+    </div>
+    <script src="todo.js"></script>
+
+    
+</body>
+
+</html>
